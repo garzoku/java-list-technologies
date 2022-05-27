@@ -1,14 +1,8 @@
 class MyCodingSkills {
-    String[] skills = { "Java", "C#", "Javascript", "Typescript", "Angular", "Unity", "Node", "NPM" };
-
-    public String[] getSkills() {
-        return this.skills;
-    }
+    private static String[] skills = { "Java", "C#", "Javascript", "Typescript", "Angular", "Unity", "Node", "NPM" };
 
     public static void main(String[] args) {
-        MyCodingSkills app = new MyCodingSkills();
-
-        for (String skill : app.getSkills()) {
+        for (String skill : skills) {
             System.out.println(skill);
         }
     }
